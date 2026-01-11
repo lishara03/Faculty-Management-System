@@ -1,6 +1,7 @@
 package model;
 
 public class Course {
+
     private String courseId;
     private String courseName;
     private int credits;
@@ -14,7 +15,10 @@ public class Course {
     }
 
     public String getCourseId() { return courseId; }
+
     public String getCourseName() { return courseName; }
+
     public int getCredits() { return credits; }
+
     public String getLecturerId() { return lecturerId; }
 }
